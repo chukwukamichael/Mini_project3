@@ -21,7 +21,20 @@
     .para {
       font-size:20px;
     }
-
+    .dropdown-menu li a:hover {
+            background-color:white;
+          } 
+          #Training {
+            text-align:center;
+            padding-top:150px;
+          }
+          .project {
+            padding-left:200px;
+            padding-right:200px;
+          }
+          .project>h2 {
+            text-align: center;
+          }
 
 
 	</style>
@@ -30,25 +43,25 @@
     <div class="container"> 
           <div class="row">
           	<div class="col">
-          		<nav class="navbar navbar-expand-lg bg-light">
+          		<nav class="navbar navbar-expand-lg bg-success">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="images/icon.png" width="80">C. Tech</a>
+    <a class="navbar-brand" href="#"><img src="images/icon.png" width="80"><span class="text-light">C. Tech</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link text-light" href="about.html">About</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Services
           </a>
-          <ul class="dropdown-menu bg-info">
+          <ul class="dropdown-menu bg-success">
             <li><a class="dropdown-item" href="#">HTML</a></li>
             <li><a class="dropdown-item" href="#">Cascading Style Sheet</a></li>
             <li><hr class="dropdown-divider"></li>
@@ -61,7 +74,7 @@
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-light" type="submit">Search</button>
       </form>
 
     </div>
@@ -88,15 +101,16 @@
 
           </div>
           <div class="row mt-4">
-            <div class="col-md-6">
+            <div class="col-md-7">
               <div class="mt-5">
               <h3>Who we are</h3>
-              <span>C. Tech is a cutting-edge IT solutions provider. We bring our clients' digital ideas to life by offering premium Website services, Front-End, Back-End, and Full-Stack web development, and support.
+              <p>C. Tech is a cutting-edge IT solutions provider. We bring our clients' digital ideas to life by offering premium Website services, Front-End, Back-End, and Full-Stack web development, and support.
 
-               </span>
+               </p>
+                <button type="button" class="btn btn-success">Our Services</button>
             </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -126,7 +140,120 @@
 
 
           </div>
+          <div class="row mt-5">
+            <div class="col-md-3 col-sm mr-4" id="content">
+                  <img src="images/long.jpg" width="400px" height="540px">
 
+            </div>
+                 <div class="col-md-9">
+                   <div class="row bg-dark pt-4 px-4">
+                    <div class="col-md">
+                         <h3 class="text-success">What we do</h3>
+                         <h1 class="text-light">Web Solutions</h1>
+                         <p class="text-light">We help people create fully responsive webpages for their businesses <br>
+                         or even personal webpages like Wedding websites,Funeral websites and many more. </p>
+                       </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-md-4 bg-success">
+                           <img src="images/laptop-icon1.png" class="img-fluid pt-4" width="50%">
+                           <h3 class="text-light">Website design</h3>
+                           <p class="text-light">We build visually appealing, high quality websites that attract viewers to the website</p>
+                           <button type="button" class="btn btn-outline-light">Learn More</button>
+                         </div>
+                           <div class="col-md-4">
+                            <img src="images/iphone1.png" class="img-fluid pt-4" width="40%">
+                            <h3>Iphone Users</h3>
+                            <p class="text-secondary">We build our websites in a way that Iphone users who usually feel left out due to the uniqueness of their mobile phones are now part of the fun</p>
+                             <button type="button" class="btn btn-success">Learn More</button>
+                         </div>
+                           <div class="col-md-4">
+                            <img src="images/android1.png" class="img-fluid pt-4" width="35%">
+                            <h3>Android Users</h3>
+                            <p>Our websites are not just for laptops or Iphones but also for androids.You will never have to worry about whether or not  the site looks good ,because our sites always loook good. </p>
+                             <button type="button" class="btn btn-success">Learn More</button>
+                         </div>
+                       </div>
+                     </div>
+                         
+
+                   
+                        
+
+
+
+                 </div>
+
+
+          </div>
+                                <div class="row mt-5">
+                 <div class="col-md-9">
+                   <div class="row bg-dark pt-4 px-4">
+                    <div class="col-md">
+                         <h1 class="text-light">Web Solutions</h1>
+                         <p class="text-light">We help people create fully responsive webpages for their businesses <br>
+                         or even personal webpages like Wedding websites,Funeral websites and many more. </p>
+                       </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-md-4 bg-success pt-5 px-5">
+                          <h1 class="text-light">HTML</h1>
+                           <p class="text-light">Our html pages are built with modern techniques.We use HTML5 in building our webpages in order for our customers to have the best experience </p>
+                            <button type="button" class="btn btn-outline-light">Learn More</button>
+                         </div>
+                           <div class="col-md-4 pt-5 px-5">
+                                 <h1>CSS</h1>
+                           <p>Our css styles are very modern and beautiful to the eye and comtain up-to-date styling techniques that are compatible with your page </p>
+                            <button type="button" class="btn btn-success">Learn More</button>
+                         </div>
+                           <div class="col-md-4 pt-5 px-5">
+                                 <h1>Javascript</h1>
+                           <p>Our pages are built with various javascript properties such as:Navbar;dropdown, modal, carousel and so on</p>
+                            <button type="button" class="btn btn-success">Learn More</button>
+                         </div>
+                       </div>
+                     </div>
+                       <div class="col-md-3 col-sm" id="content">
+                  <img src="images/long.jpg" class="img-fluid">
+
+            </div>
+                         
+
+                   
+                        
+
+
+
+                 </div>
+
+
+          <div class="row">
+                  <div class="col-md-6" id="Training">
+                    <h5 class="text-success">Support</h5>
+                    <h2>Training and support</h2>
+                    <p>C. Tech provides continuous training and support to all our clients. We ensure that all our solutions are adequately maintained over the life-span of the product - and we are with you every step of the way.</p>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="images/subbanner.jpg" class="img-fluid">
+                  </div>
+
+
+
+
+          </div>
+               <div class="row mt-5 mx-5">
+                <div class="col-md project">
+                  <h2>Latest Projects</h2>
+                  <p>We have created a number of websites that have made a significant difference in our clients' businesses. Here are some of our latest projects.</p>
+                </div>
+               </div>
+         <div class="row">
+           <div class="col-md-6">
+             
+
+           </div>
+
+         </div>
 
 
 
